@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AlertValidationSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+  <e:Rect fillAlpha="0.5" x="0" y="0" width="1206" height="750" />
+  <e:Group horizontalCenter="0" verticalCenter="0">
+    <e:Image source="dissolve_bg_png" />
+    <e:Label text="解散请求" left="51" top="21" textColor="0xe0ced6" size="30" fontFamily="SimHei" />
+    <e:Group id="g_step1" width="100%" height="100%" verticalCenter="0" horizontalCenter="0"              visible="false">
+      <e:Label id="txt_tip" text="解散房间需征求所有在线玩家同意，您确定要申请解散房间吗？" y="107.6" anchorOffsetX="0" width="614.24"
+               anchorOffsetY="0" height="108.79" textColor="0xdad8d9" size="32" fontFamily="SimHei" textAlign="center"
+               verticalAlign="middle" lineSpacing="10" horizontalCenter="-0.5" />
+      <e:Group y="263" horizontalCenter="0.5">
+        <e:Button id="btn_no" x="0" y="0">
+          <e:Skin states="up,down" width="224" height="86">
+            <e:Image source="dissolve_btn1_png" scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0"
+                     horizontalCenter="0" />
+            <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                     source="dissolve_btn4_png" />
+          </e:Skin>
+        </e:Button>
+        <e:Button id="btn_yes" x="316.66999999999996" y="0">
+          <e:Skin states="up,down" width="224" height="86">
+            <e:Image scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"
+                     source="dissolve_btn3_png" />
+            <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                     source="dissolve_btn5_png" />
+          </e:Skin>
+        </e:Button>
+        <e:layout>
+          <e:HorizontalLayout gap="122" />
+        </e:layout>
+      </e:Group>
+    </e:Group>
+    <e:Group id="g_step2" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" visible="false">
+      <e:Image source="dissolve_headbg_png" scaleX="1" scaleY="1" verticalCenter="-57.5" horizontalCenter="0"
+               locked="true" />
+      <e:Image source="dissolve_p1_png" y="220" horizontalCenter="0" locked="true" />
+      <e:Image id="img_pgs" source="dissolve_p2_png" y="217" left="12" scale9Grid="4,2,731,16"  width="739"/>
+      <e:Group y="91" height="80" anchorOffsetY="0" horizontalCenter="0">
+        <e:Image id="img_head1" width="80" height="80" x="0" y="0" />
+        <e:Image id="img_head2" width="80" height="80" x="0" y="0" />
+        <e:Image id="img_head3" width="80" height="80" x="0" y="0" />
+        <e:Image id="img_head4" width="80" height="80" x="0" y="0" />
+        <e:layout>
+          <e:HorizontalLayout gap="87" />
+        </e:layout>
+      </e:Group>
+      <e:Group y="106.6" horizontalCenter="40">
+        <e:Image id="img_status1" source="dissolve_yes_png" x="0" y="0"  visible="false"/>
+        <e:Image id="img_status2" source="dissolve_yes_png" x="0" y="0"  visible="false"/>
+        <e:Image id="img_status3" source="dissolve_yes_png" x="0" y="0"  visible="false"/>
+        <e:Image id="img_status4" source="dissolve_yes_png" x="0" y="0" visible="false" />
+        <e:layout>
+          <e:HorizontalLayout gap="97" />
+        </e:layout>
+      </e:Group>
+      <e:Group y="182.6" horizontalCenter="0.5">
+        <e:Label id="txt_name1" text="这是一个名字" x="0" y="0" width="167" textAlign="center" size="18" fontFamily="SimHei"
+                 height="18" />
+        <e:Label id="txt_name2" text="这是一个名字" x="0" y="0" width="167" textAlign="center" size="18" fontFamily="SimHei"
+                 height="18" />
+        <e:Label id="txt_name3" text="这是一个名字" x="0" y="0" width="167" textAlign="center" size="18" fontFamily="SimHei"
+                 height="18" />
+        <e:Label id="txt_name4" text="这是一个名字" x="0" y="0" width="167" textAlign="center" size="18" fontFamily="SimHei"
+                 height="18" />
+        <e:layout>
+          <e:HorizontalLayout gap="0" />
+        </e:layout>
+      </e:Group>
+      <e:Label id="txt_wait" text="正在等待其他玩家选择" y="283" textColor="0xdad8d9" size="32" fontFamily="SimHei"                horizontalCenter="0.5" />
+      <e:Group id="g_btn2" y="263" horizontalCenter="0" visible="false">
+        <e:Button id="btn_no2" x="0" y="0">
+          <e:Skin states="up,down" width="224" height="86">
+            <e:Image source="dissolve_btn1_png" scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0"
+                     horizontalCenter="0" />
+            <e:Image source="dissolve_btn2_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9"
+                     scaleY.down="0.9" />
+          </e:Skin>
+        </e:Button>
+        <e:Button id="btn_yes2" x="330.31000000000006" y="0">
+          <e:Skin states="up,down" width="224" height="86">
+            <e:Image scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0" horizontalCenter="0"
+                     source="dissolve_btn3_png" />
+            <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                     source="dissolve_btn6_png" />
+          </e:Skin>
+        </e:Button>
+        <e:layout>
+          <e:HorizontalLayout gap="122" />
+        </e:layout>
+      </e:Group>
+    </e:Group>
+  </e:Group>
+</e:Skin>

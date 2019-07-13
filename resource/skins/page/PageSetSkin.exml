@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageSetSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_touch" left="0" top="0" fillAlpha="0.5" bottom="0" right="0" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="set_bg_png" />
+		<e:Image y="18.33" source="set_title_png" horizontalCenter="0" />
+		<e:Image id="btn_close" x="579.43" y="-9.88"  source="close_png"/>
+		<e:Image source="set_music_png" x="169.15" y="173"/>
+		<e:Image source="set_sound_png" x="169.15" y="325.76"/>
+		<e:ToggleSwitch id="ts_music" x="333.16" y="141">
+			<e:Skin states="up,upAndSelected" currentState="up" width="178" height="95">
+				<e:Image source="set_sbtn_on_png" includeIn="upAndSelected" />
+				<e:Image source="set_sbtn_off_png" includeIn="up" />
+			</e:Skin>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="ts_sound" x="333.16" y="293.76">
+			<e:Skin states="up,upAndSelected" currentState="up" width="178" height="95">
+				<e:Image source="set_sbtn_on_png" includeIn="upAndSelected" />
+				<e:Image source="set_sbtn_off_png" includeIn="up" />
+			</e:Skin>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

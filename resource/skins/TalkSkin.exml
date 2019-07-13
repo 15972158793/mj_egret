@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalkSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="248" height="129">
+	<e:Image id="img_talk1" source="chat_box1_png"  y="12" visible="false"/>
+	<e:Image id="img_talk2" source="chat_box2_png"  x="3.6" y="12" visible="false"/>
+	<e:Image id="img_talk3"  source="chat_box3_png" y="0" visible="false"/>
+	<e:Label id="lb_content" text="" size="22" fontFamily="黑体" anchorOffsetX="0" width="199.2"
+	          anchorOffsetY="0" textColor="0xffffff" lineSpacing="10" height="67" verticalAlign="middle" y="28.4" x="25"/>
+</e:Skin>

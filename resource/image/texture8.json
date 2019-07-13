@@ -1,0 +1,16 @@
+{"file":"texture8.png","frames":{
+"hupai_guo_png":{"x":226,"y":88,"w":139,"h":139,"offX":0,"offY":0,"sourceW":139,"sourceH":139},
+"ready_bg1_png":{"x":0,"y":0,"w":252,"h":86,"offX":0,"offY":0,"sourceW":252,"sourceH":86},
+"ready_ready_png":{"x":63,"y":176,"w":81,"h":44,"offX":0,"offY":0,"sourceW":81,"sourceH":44},
+"stmt_gold_png":{"x":441,"y":88,"w":65,"h":67,"offX":1,"offY":1,"sourceW":66,"sourceH":68},
+"voice_s1_png":{"x":146,"y":176,"w":50,"h":67,"offX":0,"offY":0,"sourceW":50,"sourceH":67},
+"voice_s2_png":{"x":0,"y":176,"w":61,"h":67,"offX":0,"offY":0,"sourceW":61,"sourceH":67},
+"voice_s3_png":{"x":367,"y":88,"w":72,"h":67,"offX":0,"offY":0,"sourceW":72,"sourceH":67},
+"chat_title_face2_png":{"x":63,"y":222,"w":62,"h":32,"offX":0,"offY":0,"sourceW":62,"sourceH":32},
+"chat_title_talk_png":{"x":367,"y":226,"w":91,"h":32,"offX":0,"offY":0,"sourceW":91,"sourceH":32},
+"clock_arrow_png":{"x":198,"y":229,"w":88,"h":20,"offX":0,"offY":0,"sourceW":88,"sourceH":20},
+"dissolve_btn1_png":{"x":254,"y":0,"w":224,"h":86,"offX":0,"offY":0,"sourceW":224,"sourceH":86},
+"estmt_btn2_png":{"x":0,"y":88,"w":224,"h":86,"offX":0,"offY":0,"sourceW":224,"sourceH":86},
+"estmt_g1_png":{"x":367,"y":157,"w":65,"h":67,"offX":1,"offY":1,"sourceW":66,"sourceH":68},
+"estmt_g3_png":{"x":434,"y":157,"w":65,"h":67,"offX":0,"offY":0,"sourceW":65,"sourceH":67},
+"feng_png":{"x":480,"y":0,"w":26,"h":25,"offX":0,"offY":0,"sourceW":26,"sourceH":25}}}

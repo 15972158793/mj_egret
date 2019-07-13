@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ToggleSwitchSkin" states="up,upAndSelected" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="icon_switch_on_png" x="0" y="0" source.up="icon_switch_off_png"/>
+	<e:Label text="ON" size="18" fontFamily="黑体" verticalCenter="0" right="54" right.up="4" text.up="OFF"/>
+</e:Skin>

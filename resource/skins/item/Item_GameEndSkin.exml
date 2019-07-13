@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Item_GameEndSkin" width="880" height="80" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="estmt_line_png" horizontalCenter="0" bottom="0" />
+	<e:Image id="img_gold" left="16" verticalCenter="0" visible="false" />
+	<e:Rect id="img_headMask" width="60" height="60" x="101" ellipseWidth="20" verticalCenter="0" />
+	<e:Image id="img_head" width="60" height="60" x="101" verticalCenter="0" mask="{img_headMask}" />
+	<e:Label id="txt_score" text="{data.score}" x="800" verticalCenter="0" size="32" fontFamily="SimHei" />
+	<e:Group id="g_data" height="80" x="196.56" />
+</e:Skin>

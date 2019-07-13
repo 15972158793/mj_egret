@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBigEndSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Config id="1594a189ecf" />
+	<w:Declarations>
+		<tween:TweenGroup id="arrow">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1056}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1112}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect width="100%" height="100%" fillAlpha="0.5" x="0" y="0" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="estmt_bg_png" />
+		<e:Image source="estmt_title_png" horizontalCenter="0.5" top="18" />
+		<e:Label text="时长：" x="653.93" y="77" size="32" fontFamily="SimHei" textColor="0xDAD8D9" visible="false" />
+		<e:Group y="77" horizontalCenter="0">
+			<e:Label text="扣点麻将" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9"/>
+			<e:Group y="0" x="315.45">
+				<e:Label text="房号：" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xDAD8D9"/>
+				<e:Label id="txt_roomNum" text="000000" x="100" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9"/>
+			</e:Group>
+		</e:Group>
+		<e:Label id="txt_time" text="00分钟" x="743.92" y="77" size="32" fontFamily="SimHei" textColor="0xDAD8D9"
+		         visible="false" />
+		<e:Image source="estmt_line_png" y="114.01" horizontalCenter="0.5" />
+		<e:Group y="460.98" horizontalCenter="0.5">
+			<e:Button id="btn_continue" x="0" y="0">
+				<e:Skin states="up,down" width="224" height="86">
+					<e:Image scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" source="estmt_btn1_png" />
+					<e:Image verticalCenter="0" horizontalCenter="0" source="estmt_back_png" scaleX.down="0.9" scaleY.down="0.9" />
+				</e:Skin>
+			</e:Button>
+			<e:Button id="btn_share" x="335" y="0">
+				<e:Skin states="up,down" width="224" height="86">
+					<e:Image source="estmt_btn2_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="estmt_share_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+				</e:Skin>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="164" />
+			</e:layout>
+		</e:Group>
+		<e:List id="list_data" width="880" height="320" x="19.12" y="128.93" anchorOffsetX="0" anchorOffsetY="0" />
+	</e:Group>
+	<e:Group id="g_share" width="1206" height="750" visible="false">
+		<e:Rect id="rect_sharebg" width="1206" height="750" fillAlpha="0.7" />
+		<e:Image id="img_share" right="162" verticalCenter="0" source="share_3_png" />
+		<e:Image id="image" source="share_arrow_png" x="1056" bottom="24" />
+	</e:Group>
+</e:Skin>

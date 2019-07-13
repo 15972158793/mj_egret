@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PageScoreSingSkin" width="657" height="106" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="rankline" x="1" y="102" width="657"/>
+	<e:Label x="0" y="43" width="126" height="29" text="{data.date}" size="22" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+	<e:Label y="44" height="29" textAlign="center" width="89" size="22" verticalAlign="middle" x="126" text="{data.roomId}" textColor="0x020202"/>
+	<e:Label y="41" size="22" textAlign="center" width="104" height="29" verticalAlign="middle" x="241" text="{data.time}" textColor="0x000000"/>
+	<e:Label y="1" height="21" textAlign="center" width="121" size="22" verticalAlign="middle" x="392" text="{data.playerOneName}" textColor="0x010101"/>
+	<e:Label y="27" size="22" textAlign="center" width="121" height="21" verticalAlign="middle" x="392" text="{data.playerTwoName}" textColor="0x0A0909"/>
+	<e:Label y="52" height="21" textAlign="center" width="121" size="22" verticalAlign="middle" x="392" text="{data.playerThreeName}" textColor="0x060505"/>
+	<e:Label y="77" height="21" textAlign="center" width="121" size="22" verticalAlign="middle" x="392" text="{data.playerFourName}" textColor="0x010000"/>
+	<e:Label y="4" height="21" textAlign="center" width="82" size="22" verticalAlign="middle" x="568" text="{data.playerOneValue}" textColor="0x070606"/>
+	<e:Label y="30" size="22" textAlign="center" width="82" height="21" verticalAlign="middle" x="568" text="{data.playerTwoValue}" textColor="0x0D0B0B"/>
+	<e:Label y="55" height="21" textAlign="center" width="82" size="22" verticalAlign="middle" x="568" text="{data.playerThreeValue}" textColor="0x0F0E0E"/>
+	<e:Label y="80" size="22" textAlign="center" width="82" height="21" verticalAlign="middle" x="568" text="{data.playerFourValue}" textColor="0x0D0C0C"/>
+</e:Skin>

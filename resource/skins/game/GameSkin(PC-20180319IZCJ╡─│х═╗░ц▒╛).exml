@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="showHead">
+			<tween:TweenItem target="{c_player_bottom}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{595}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{10}" y="{482}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{c_player_top}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{64}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{205}" y="{59}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{c_player_right}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1074}" y="{184}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1084}" y="{189}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{c_player_left}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{20}" y="{298}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{217}" x="{10}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image left="0" top="0" bottom="0" right="0" source="desk_bg_png" />
+	<e:Image horizontalCenter="0.5" y="5" source="topbar_bg_png" />
+	<e:Button id="btn_set" right="20" top="20">
+		<e:Skin states="up,down" width="96" height="98">
+			<e:Image source="set_btn_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<e:Button id="btn_message" right="20" bottom="285">
+		<e:Skin states="up,down" width="96" height="98">
+			<e:Image verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="chat_btn1_png" />
+		</e:Skin>
+	</e:Button>
+	<e:Rect id="rect_topBarMask" width="591" height="28" horizontalCenter="0" top="16" fillAlpha="1" alpha="1"
+	         visible="false"/>
+	<e:Group id="g_topBar" top="16" mask="{rect_topBarMask}" x="916">
+		<e:Label id="lb_roomNumber" text="房间号：000000" size="28" fontFamily="黑体" textColor="0x58c5a5" x="391.99999999999994"
+		         y="0" />
+		<e:Label id="lb_times" text="局数：0/0" size="28" fontFamily="黑体" textColor="0x58c5a5" x="0" y="0" />
+		<e:Label id="lb_rule" text="玩法：风耗子场" size="28" fontFamily="黑体" textColor="0x58c5a5" x="165.99999999999994" y="0" />
+		<e:layout>
+			<e:HorizontalLayout gap="54" />
+		</e:layout>
+	</e:Group>
+	<!--<e:Label id="lb_roomNumber" text="房间号：000000" size="28" fontFamily="黑体" top="16" left="710" textColor="0x58c5a5" />
+	<e:Label id="lb_times" text="局数：0/0" size="28" fontFamily="黑体" top="16" left="318" textColor="0x58c5a5" />
+	<e:Label id="lb_rule" text="玩法：风耗子场" size="28" fontFamily="黑体" top="16" left="484" textColor="0x58c5a5" />
+	-->
+	<e:Label id="lb_cardNum" size="26" top="444" fontFamily="黑体" text="剩余：0 张牌" textAlign="center" textColor="0x095b40"
+	         horizontalCenter="0" />
+	<ns1:GameUserPage id="c_player_bottom" skinName="GameUserSkin" y="595" x="547" />
+	<ns1:GameUserPage id="c_player_top" skinName="GameUserSkin" x="547" y="64" />
+	<ns1:GameUserPage id="c_player_right" skinName="GameUserSkin" x="1074" y="184" />
+	<ns1:GameUserPage id="c_player_left" skinName="GameUserSkin" x="20" y="298" />
+	<ns1:GameTimeArrowPage id="c_timeArrow" skinName="GameTimeArrow" verticalCenter="0" horizontalCenter="0" />
+	<ns1:CardGroupLeft id="c_card_left" skinName="CardGroupLeftSkin" left="135" bottom="120" top="50" />
+	<ns1:CardGroupRight id="c_card_right" skinName="CardGroupRightSkin" right="135" top="50" bottom="155" />
+	<ns1:CardGroupTop id="c_card_top" skinName="CardGroupTopSkin" top="76" right="197" left="332" />
+	<ns1:CardGroupBottom id="c_card_bottom" skinName="CardGroupBottomSkin" bottom="10" horizontalCenter="0" />
+	<ns1:CardGroupShowBotton id="c_cardShow_bottom" skinName="CardGroupShowBottomSkin" bottom="105" horizontalCenter="0" />
+	<ns1:CardGroupShowLeft id="c_cardShow_left" skinName="CardGroupShowLeftSkin" verticalCenter="16" left="166" />
+	<ns1:CardGroupShowRight id="c_cardShow_right" skinName="CardGroupShowRightSkin" right="168" verticalCenter="-4" />
+	<ns1:CardGroupShowTop id="c_cardShow_top" skinName="CardGroupShowTopSkin" top="128" horizontalCenter="0.5" />
+	<ns1:GamePGHPage id="c_player_PGH" skinName="GamePGHSkin" horizontalCenter="0" bottom="150" locked="true"
+	                 visible="false" />
+	<ns1:GameBtnHoverPage id="c_btnHover" skinName="GameBtnHover" />
+	<ns1:Page_Record skinName="PageRecordSkin" visible="false" />
+	<e:Group id="g_left_act" verticalCenter="-61.5" left="132" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_right_act" verticalCenter="-49.5" right="130" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_top_act" horizontalCenter="-150" top="116" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_bottom_act" horizontalCenter="-346" top="414" x="10" y="10" width="248" height="129"
+	         touchChildren="false" touchEnabled="false" touchThrough="true"></e:Group>
+    <e:Group id="card_ts_left"  left="90" bottom="505" top="5" width="271.33" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:Card width="20"  height="20" x="22" y="326"/>
+			<e:layout>
+				<e:TileLayout orientation="columns"/>
+			</e:layout>
+		</e:Group>
+	<e:Group id="card_ts_right"  right="371" top="254" bottom="203"  width="216.66" anchorOffsetY="0" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout orientation="columns"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="card_ts_top" top="59" right="197" left="664"  height="186" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout orientation="rows"/>
+		</e:layout>
+	</e:Group>
+
+
+</e:Skin>

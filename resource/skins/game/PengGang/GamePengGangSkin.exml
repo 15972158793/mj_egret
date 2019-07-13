@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GamePengGangSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_cardLeft" source="card_hide_bottom_png" x="0" y="15"/>
+	<e:Image id="img_cardBottom" source="card_hide_bottom_png" x="36.2" y="15"/>
+	<e:Image id="img_cardRight" source="card_hide_bottom_png" x="72.8" y="15"/>
+	<e:Image id="img_cardTop" source="card_hide_bottom_png" x="36.2" y="0"/>
+</e:Skin>

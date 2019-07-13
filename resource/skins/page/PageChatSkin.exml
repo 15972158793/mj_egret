@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageChatSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="rect_bg" width="1206" height="750" fillAlpha="0.5" verticalCenter="0" horizontalCenter="0" />
+    <e:Group id="g_talk" x="228" y="146" visible="false">
+        <e:Image source="chat_bg_png" x="0" y="0" />
+        <e:Scroller width="705" height="329" y="80" anchorOffsetX="0" anchorOffsetY="0" x="23">
+            <e:Group x="2" y="146">
+                <e:List id="list_talk" left="0" top="0" itemRendererSkinName="item_TalkSkin" />
+            </e:Group>
+        </e:Scroller>
+    </e:Group>
+    <e:Group id="g_face" x="222" y="145" visible="false">
+        <e:Image source="chat_face_bg_png" x="0" y="0" />
+        <e:Image source="chat_face_bg1_png" horizontalCenter="0.5" verticalCenter="20" />
+        <e:Group id="faceGroup" y="85.87" anchorOffsetX="0" height="660" width="1395" scaleX="0.5" scaleY="0.5"
+                 horizontalCenter="1.5">
+            <e:Image source="expression1_png" />
+            <e:Image source="expression2_png" />
+            <e:Image source="expression3_png" />
+            <e:Image source="expression4_png" />
+            <e:Image source="expression5_png" />
+            <e:Image source="expression6_png" />
+            <e:Image source="expression7_png" />
+            <!--<e:Image source="expression8_png" />
+            -->
+            <e:Image source="expression9_png" />
+            <e:Image source="expression10_png" />
+            <e:Image source="expression11_png" />
+            <e:Image source="expression12_png" />
+            <e:Image source="expression13_png" />
+            <e:Image source="expression14_png" />
+            <e:Image source="expression15_png" />
+            <e:Image source="expression16_png" />
+            <e:Image source="expression17_png" />
+            <e:Image source="expression18_png" />
+            <e:Image source="expression19_png" />
+            <e:Image source="expression20_png" />
+            <e:Image source="expression21_png" />
+            <e:Image source="expression22_png" />
+            <e:Image source="expression23_png" />
+            <e:Image source="expression24_png" />
+            <e:Image source="expression25_png" />
+            <e:Image source="expression26_png" />
+            <e:Image source="expression27_png" />
+            <e:layout>
+                <e:TileLayout horizontalGap="40" verticalGap="0" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+    <e:Group y="152" horizontalCenter="0">
+        <e:RadioButton id="rbtn_talk" y="0" x="0" groupName="chat">
+            <e:Skin currentState="up" states="up,down" width="366" height="57">
+                <e:Image source="chat_bg1_png" includeIn="down" />
+                <e:Image source="chat_title_talk_png" includeIn="down" verticalCenter="0" horizontalCenter="0" />
+                <e:Image source="chat_bg4_png" includeIn="up" />
+                <e:Image source="chat_title_talk2_png" includeIn="up" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:RadioButton>
+        <e:RadioButton id="rbtn_face" y="0" x="0" groupName="chat">
+            <e:Skin currentState="up" states="up,down" width="366" height="57">
+                <e:Image includeIn="down" source="chat_bg3_png" />
+                <e:Image source="chat_title_face2_png" includeIn="down" verticalCenter="0" horizontalCenter="0" />
+                <e:Image includeIn="up" source="chat_bg2_png" />
+                <e:Image source="chat_title_face_png" includeIn="up" verticalCenter="0" horizontalCenter="0" />
+            </e:Skin>
+        </e:RadioButton>
+        <e:layout>
+            <e:HorizontalLayout gap="-1" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

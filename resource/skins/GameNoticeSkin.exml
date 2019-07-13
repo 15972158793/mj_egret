@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameNoticeSkin" width="723" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="img_hall_notice_png" y="0" x="0"/>
+	<e:Image id="noticeMask" source="img_hall_noticeMask_png" x="0" y="0"/>
+	<e:Label id="lb_hall_notice" text="公告" textColor="0xfbeec0" verticalCenter="0" size="20" textAlign="left" verticalAlign="middle" fontFamily="黑体" height="20" x="683"/>
+</e:Skin>

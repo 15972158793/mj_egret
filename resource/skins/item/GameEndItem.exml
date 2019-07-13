@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameEndItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="80">
+	<e:Group id="g_card"  verticalCenter="0"/>
+</e:Skin>

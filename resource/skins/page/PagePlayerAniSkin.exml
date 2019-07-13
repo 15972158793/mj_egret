@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PagePlayerAniSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="a2">
+			<tween:TweenItem target="{player_2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="a3">
+			<tween:TweenItem target="{player_1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="a4">
+			<tween:TweenItem target="{player_1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1074}" y="{184}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{547}" y="{64}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{player_4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{20}" y="{298}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{547}" y="{595}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+    <ns1:GameUserPage id="player_3" skinName="GameUserSkin"  x="547" y="64"/>
+    <ns1:GameUserPage id="player_1" skinName="GameUserSkin"  x="547" y="595"/>
+    <ns1:GameUserPage id="player_2" skinName="GameUserSkin"  x="1074" y="184"/>
+    <ns1:GameUserPage id="player_4" skinName="GameUserSkin"  x="20" y="298"/>
+</e:Skin>

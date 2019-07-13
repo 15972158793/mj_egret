@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageRoomSc" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+   
+    <e:Group horizontalCenter="0" verticalCenter="0">
+        <e:Image source="bg_page2_png" x="0" y="0"/>
+        <e:Image id="btn_close" source="close_png" x="781.36" y="58.7"/>
+        <e:Group id="roomtitle" visible="false">
+            <e:Label text="房间号" x="169.18" y="173" textColor="0x000000" fontFamily="微软雅黑"  size="28"/>
+		    <e:Label text="局数" x="326.97" y="175" textColor="0x000000" fontFamily="微软雅黑" size="28"/>
+		   <e:Label text="人数" x="473" y="177" textColor="0x000000" fontFamily="微软雅黑" size="28"/>
+        </e:Group>
+       
+         <e:Image id="page_sc" source="page_sc_png" horizontalCenter="0" verticalCenter="0"/>
+        <e:Scroller width="657" height="416" y="221" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group height="416">
+				<e:List id="list_roomList" height="443" width="657" x="0" y="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Scroller>
+			<e:Image source="Roomlist_png" x="371" y="50"/>
+    </e:Group>
+     <e:Image id="_Share" source="Share" horizontalCenter="0" verticalCenter="0" visible="false"/>
+   
+</e:Skin>

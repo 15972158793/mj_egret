@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageHowSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="how_bg1_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image source="texture4_json.how_bg2_png" horizontalCenter="-5.5" verticalCenter="18"/>
+		<e:Label text="玩法" y="19.68" size="30" textColor="0xe0ced6" fontFamily="SimHei" horizontalCenter="0.5"/>
+		<e:Image id="btn_close" x="831.3" y="-8.95"  source="close_png"/>
+		<!--<e:Group y="144" horizontalCenter="140">
+		<e:Image id="img_hover2" source="icon_titleBg_png" x="0" y="0" visible="false" />
+		<e:Image id="btn_title2" source="font_img_how2_png" y="6" x="20" />
+	</e:Group>
+	-->
+	<e:Scroller width="777" height="416.67" y="105.66" horizontalCenter="0" anchorOffsetY="0">
+		<e:Group>
+			<e:Group id="g_how1" left="0" top="0">
+				<e:Label text="基本玩法：\n1扣点麻将万、饼（筒）、条、风（东、南、西、北）、字（中、发、白）全副牌共有5类136张，风牌字牌合计28张。 扣点麻将为四人游戏，发牌后，轮流抓牌、出牌、碰、杠，最先胡牌的为胜利。\n名词解释: \n自摸：所胡牌为自己正常摸得，即称之为自摸胡，简称“自摸”。\n明杠：明杠分为两类，一类为自己手中已有相同牌，此时另外的玩家放出一张该牌，玩家即可选择杠牌，此明杠为对方点杠。另一类杠为玩家又摸到一张自己已碰过的牌，选择杠后为摸明杠，摸明杠三家都赔。\n暗杠：自己摸得四张（四张全部为玩家摸得）一样的牌后，选择杠后称之为暗杠。"
+				         left="0" top="0" size="32" fontFamily="黑体" lineSpacing="15"  width="777" textColor="0xdad8d9"/>
+			</e:Group>
+			<!--<e:Group id="g_how2" left="0" top="0" visible="false">
+			<e:Label text="基本玩法：\n2扣点麻将万、饼（筒）、条、风（东、南、西、北）、字（中、发、白）全副牌共有5类136张，风牌字牌合计28张。 扣点麻将为四人游戏，发牌后，轮流抓牌、出牌、碰、杠，最先胡牌的为胜利。\n名词解释: \n自摸：所胡牌为自己正常摸得，即称之为自摸胡，简称“自摸”。\n明杠：明杠分为两类，一类为自己手中已有相同牌，此时另外的玩家放出一张该牌，玩家即可选择杠牌，此明杠为对方点杠。另一类杠为玩家又摸到一张自己已碰过的牌，选择杠后为摸明杠，摸明杠三家都赔。\n暗杠：自己摸得四张（四张全部为玩家摸得）一样的牌后，选择杠后称之为暗杠。"
+			         left="0" top="0" textColor="0x2b3229" size="24" fontFamily="黑体" width="700" lineSpacing="15" />
+		</e:Group>
+		-->
+	</e:Group>
+</e:Scroller>
+</e:Group>
+</e:Skin>

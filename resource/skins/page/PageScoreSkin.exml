@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageScoreSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg_page2_png" x="0" y="0"/>
+		<e:Image source="font_img_score_png" y="53.74" horizontalCenter="0.5"/>
+		<e:Image id="btn_close" source="close_png" x="781.36" y="58.7"/>
+		<e:Label text="日期" x="169.18" y="133" textColor="0x787c5d" fontFamily="黑体" size="24"/>
+		<e:Label text="房间号" x="277.97" y="133" textColor="0x787c5d" fontFamily="黑体" size="24"/>
+		<e:Label text="时间" x="409" y="133" textColor="0x787c5d" fontFamily="黑体" size="24"/>
+		<e:Label text="玩家" x="567" y="133" textColor="0x787c5d" fontFamily="黑体" size="24"/>
+		<e:Label text="得分" x="728.36" y="133" textColor="0x787c5d" fontFamily="黑体" size="24"/>
+		<e:Rect width="657" height="1" y="168" fillColor="0x9ea282" anchorOffsetX="0" horizontalCenter="0"/>
+		<e:Scroller width="657" height="416" y="169" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group height="416">
+				<e:List id="list_score" height="25" width="654" x="0" y="0"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="btn_score_share" source="btn_score_share_png" y="609" horizontalCenter="0"  visible="true"/>
+		<e:Label text="* 只展示最近50间房的战绩" x="146" y="591" textColor="0x7b7f4d" size="14" fontFamily="黑体"/>
+	</e:Group>
+</e:Skin>

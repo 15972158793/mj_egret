@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageShopSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15929a2ee0a"/>
+	<e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg_page2_png" anchorOffsetX="0" anchorOffsetY="0" height="673" x="0" y="0"/>
+		<e:Image source="font_img_shop_png" y="42.33" horizontalCenter="0"/>
+		<e:Image id="btn_close" source="close_png" x="781" y="43.33"/>
+		<e:Group y="171.5" horizontalCenter="0">
+			<e:Rect width="646" height="1" y="155" fillColor="0x8e9a7c" anchorOffsetX="0" x="0"/>
+			<e:Rect width="646" height="1" y="0" fillColor="0x8e9a7c" anchorOffsetX="0" x="0"/>
+			<e:Rect width="646" height="1" y="312" fillColor="0x8e9a7c" anchorOffsetX="0" x="0"/>
+			<e:Rect width="1" height="312" y="0.5" fillColor="0x8e9a7c" anchorOffsetX="0" x="204"/>
+			<e:Rect width="1" height="312" y="0.5" fillColor="0x8e9a7c" anchorOffsetX="0" x="442"/>
+		</e:Group>
+		<e:Group y="172" horizontalCenter="0">
+			<e:Group x="0" y="0">
+			<e:Label id="PayName1" text="￥10" y="117" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="36.5"/>
+				<e:Label id="PayBao1" y="20" textColor="0x3F4838" text="￥10" fontFamily="黑体" size="24" horizontalCenter="35.5" x="10"/>
+			<e:Image id="btn_pay1" source="icon_money1_png" x="74" y="58" name="pay1"/>
+			<e:Image id="img_gou1" source="icon_gou_png" right="-72" bottom="0" visible="false"/>
+			</e:Group>
+			<e:Group x="238" y="0">
+			<e:Label id="PayName2" text="￥20" y="118" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="21.5"/>
+				<e:Label id="PayBao2" y="17" textColor="0x3F4838" text="￥20" fontFamily="黑体" size="24" horizontalCenter="17.5" x="10"/>
+			<e:Image id="btn_pay2" source="icon_money2_png" y="51" x="51" name="pay2"/>
+			<e:Image id="img_gou2" source="icon_gou_png" right="-53" bottom="-1" visible="false"/>
+			</e:Group>
+			<e:Group x="476.5" y="0">
+			<e:Label id="PayName3" text="￥30" y="124" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="-3"/>
+				<e:Label id="PayBao3" y="15" textColor="0x3F4838" text="￥30" fontFamily="黑体" size="24" horizontalCenter="-6" x="10"/>
+			<e:Image id="btn_pay3" source="icon_money3_png" x="49" y="43" name="pay3"/>
+			<e:Image id="img_gou3" source="icon_gou_png" right="-48" bottom="-2" visible="false"/>
+				<ns1:SongPage id="SongPage3" skinName="SongPageSkin" y="-9" x="102" visible="false"/>
+			</e:Group>
+			<e:Group x="0" y="155">
+			<e:Label id="PayName4" text="￥50" y="122" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="13.5"/>
+				<e:Label id="PayBao4" y="12" textColor="0x3F4838" text="￥50" fontFamily="黑体" size="24" horizontalCenter="13.5" x="10"/>
+			<e:Image id="btn_pay4" source="icon_money4_png" x="31" y="45" name="pay4"/>
+			<e:Image id="img_gou4" source="icon_gou_png" right="-29" bottom="0" visible="false"/>
+			</e:Group>
+			<e:Group x="238.5" y="155">
+			<e:Label id="PayName5" text="￥80" y="123" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="8.5"/>
+				<e:Label id="PayBao5" y="9" textColor="0x3F4838" text="￥80" fontFamily="黑体" size="24" horizontalCenter="11.5" x="10"/>
+			<e:Image id="btn_pay5" source="icon_money5_png" x="35" y="37" name="pay5"/>
+			<e:Image id="img_gou5" source="icon_gou_png" right="-33" bottom="0" visible="false"/>
+				<ns1:SongPage id="SongPage5" skinName="SongPageSkin" y="-4" x="130" visible="false"/>
+			</e:Group>
+			<e:Group x="476.5" y="155">
+			<e:Label id="PayName6" text="￥100" y="120" textColor="0x3f4838" size="24" fontFamily="黑体" horizontalCenter="1"/>
+				<e:Label id="PayBao6" y="10" textColor="0x3F4838" text="￥100" fontFamily="黑体" size="24" horizontalCenter="-6.5" x="10"/>
+			<e:Image id="btn_pay6" source="icon_money6_png" x="26" y="40" name="pay6"/>
+			<e:Image id="img_gou6" source="icon_gou_png" right="-35" bottom="1" visible="false"/>
+				<ns1:SongPage id="SongPage6" skinName="SongPageSkin" y="-6" x="125" visible="false"/>
+			</e:Group>
+			<ns1:SongPage id="SongPage1" x="113" y="-7" skinName="SongPageSkin" visible="false"/>
+			<ns1:SongPage id="SongPage4" skinName="SongPageSkin" y="153" x="115" visible="false"/>
+			<ns1:SongPage id="SongPage2" skinName="SongPageSkin" y="-11" x="345" visible="false"/>
+		</e:Group>
+		<e:Image id="btn_buy" source="btn_buy_png" y="526" horizontalCenter="0"/>
+		<e:Label text="*成为代理，享受更多优惠。详情请联系微信ABCD。" x="149" y="498" size="14" textColor="0x7b7f4d" fontFamily="黑体"/>
+		<e:Label id="RecommandCodeText" y="124" fontFamily="黑体" size="24" x="250" textColor="0x040404" text="您绑定的二维码是12345" width="438" textAlign="center" visible="false"/>
+	</e:Group>
+	
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardGroupShowBottomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="484" height="170">
+	<e:Rect width="100%" height="100%" visible="false"/>
+	<e:Group id="g_card" left="0" top="0" width="100%" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="-17"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

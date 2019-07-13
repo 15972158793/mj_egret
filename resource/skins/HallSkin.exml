@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" top="0" bottom="0" right="0" source="bg_hall_jpg"/>
+	<e:Image source="img_hall_footer_png" left="0" bottom="0" right="0"/>
+	<e:Image source="icon_hall_lf_png" left="0" top="50"/>
+	<e:Image source="icon_hall_rf_png" right="0" top="337"/>
+	<!--<e:Image id="btn_hall_share" source="btn_hall_share_png" bottom="0" horizontalCenter="-423"/>-->
+	<e:Image id="btn_hall_roomli" source="hall_roomlist_png" bottom="0" horizontalCenter="-423"/>
+	<e:Image id="btn_hall_message" source="btn_hall_mes0_png" bottom="0" horizontalCenter="-207"/>
+	<e:Image id="btn_hall_code" source="btn_hall_code_png" bottom="0" horizontalCenter="10"/>
+	<e:Image id="btn_hall_score" source="btn_hall_score_png" bottom="0" horizontalCenter="226"/>
+	<e:Image id="btn_hall_server" source="btn_hall_server_png" bottom="0" horizontalCenter="443"/>
+	<e:Image id="btn_hall_create" source="btn_hall_create_png" verticalCenter="9" horizontalCenter="-251.5"/>
+	<e:Image id="btn_hall_join" source="btn_hall_join_png" horizontalCenter="252.5" verticalCenter="6.5"/>
+	<!--<e:Image id="btn_hall_return" source="btn_hall_return_png" horizontalCenter="252.5" verticalCenter="6.5" visible="false"/>-->
+	<e:Image source="img_hall_title_png" horizontalCenter="0" top="0"/>
+	<e:Image id="btn_hall_set" source="btn_hall_set_png" right="135" top="5"/>
+	<e:Image id="btn_hall_how" source="btn_hall_how_png" top="5" right="22"/>
+	<ns1:HallUserPage id="page_user" skinName="HallUserSkin" top="5" left="30"/>
+	<e:Group id="g_notice" horizontalCenter="0" verticalCenter="-225" width="723" height="30">
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallUserSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="318" height="102">
+	<e:Image source="img_head_box_png" left="0" top="0"/>
+	<e:Image id="img_head" width="79" height="79" x="13.5" y="9.2"/>
+	<e:Rect id="headMask" width="79" height="79" x="13.5" y="9.2" fillAlpha="0.76" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="100" ellipseWidth="100"/>
+	<e:Label id="lb_nickname" text="用户昵称" x="115" y="8.7" size="18" textColor="0x000000" fontFamily="黑体"/>
+	<e:Label id="lb_id" text="ID:000000" x="115" y="38.2" size="18" textColor="0x000000" fontFamily="黑体"/>
+	<e:Image source="img_head_moneyBar_png" x="115" y="56.2"/>
+	<e:Image source="btn_head_add_png" x="271" y="53.7" name="add"/>
+	<e:Label id="lb_money" text="0" x="151" y="63.2" size="18" anchorOffsetX="0" width="121" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="26.5" textColor="0xffd133" fontFamily="黑体"/>
+	<e:Rect id="btn_head_add" width="200" height="35" x="110" y="60" fillAlpha="0.1" visible="false"/>
+</e:Skin>

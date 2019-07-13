@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageServerSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg_page3_png" x="0" y="0"/>
+		<e:Image source="font_img_server_png" y="24.330000000000013" horizontalCenter="0"/>
+		<e:Image id="btn_close" source="close_png" x="633.7500000000001" y="22.77000000000004"/>
+		<e:Label text="充值问题请联系所在群主或代理，也可以使用游戏充值功能。" y="153.4" textColor="0x152312" size="24" fontFamily="黑体" anchorOffsetX="0" width="480" anchorOffsetY="0" lineSpacing="10" horizontalCenter="0.5"/>
+		<e:Label id="lb_wxID" text="代理信息咨询请联系微信ABCD。" y="233.4" textColor="0x152312" size="24" fontFamily="黑体" width="480" horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

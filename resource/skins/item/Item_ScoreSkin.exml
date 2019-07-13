@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Item_ScoreSkin" width="657" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" fillColor="0xffffff" left="0" top="0" visible="false"/>
+	<e:Label id="lb_date" text="2016-02-30" x="4" textColor="0x19260f" size="20" fontFamily="黑体" verticalCenter="0"/>
+	<e:Label id="lb_room" text="000000" x="140" textColor="0x19260f" size="20" fontFamily="黑体" verticalCenter="0"/>
+	<e:Label id="lb_time" text="00:00" x="266" textColor="0x19260f" size="20" fontFamily="黑体" verticalCenter="0"/>
+	<e:Label id="lb_nicknames" text="标签\n标签\n标签\n标签" x="343" textColor="0x19260f" size="20" anchorOffsetX="0" width="211" anchorOffsetY="0" fontFamily="黑体" height="80" textAlign="center" verticalCenter="0"/>
+	<e:Label id="lb_score" text="-0\n0\n0\n0" textColor="0x19260f" size="20" anchorOffsetX="0" anchorOffsetY="0" fontFamily="黑体" height="80" x="596" textAlign="right" verticalCenter="0"/>
+	<e:Image source="line_item_score_png" bottom="0" left="0"/>
+</e:Skin>

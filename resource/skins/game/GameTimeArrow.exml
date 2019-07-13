@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTimeArrow" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="130">
+	<w:Config id="1593e659ad1" x="20" y="25.5" />
+	<e:Image horizontalCenter="0" height="130" width="130" y="0" source="clock_bg_n_png" />
+	<e:Image id="img_bottom" horizontalCenter="0.5" bottom="4" source="clock_arrow_n_png" />
+	<e:Image id="img_left" rotation="90" source="clock_arrow_n_png" verticalCenter="0.5" left="4" />
+	<e:Image id="img_right" rotation="270" source="clock_arrow_n_png" verticalCenter="0.5" right="4" />
+	<e:Image id="img_top" rotation="180" source="clock_arrow_n_png" horizontalCenter="0.5" top="4" />
+	<e:BitmapLabel id="lb_time" font="clock_fnt" text="15" horizontalCenter="0" verticalCenter="0" />
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item_TalkSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="47" width="703">
+	<e:Label  text="{data.lb}" size="30" fontFamily="黑体" verticalCenter="0" left="10" right="10" textColor="0xdad8d9" bold="true"/>
+</e:Skin>

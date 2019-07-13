@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardGroupShowTopSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="495"
+        height="170">
+	<e:Rect width="100%" height="100%" visible="false"/>
+	<e:Group id="g_card" bottom="0" width="495" left="0" height="170">
+	</e:Group>
+</e:Skin>

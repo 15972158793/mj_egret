@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageJoinSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+	<e:Group id="JoInGroupGroup" verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:Image id="JoInBG" source="bg_page2_png" scaleX="0.9" scaleY="0.9" y="0" horizontalCenter="22.450000000000045" verticalCenter="7.5"/>
+		<e:Image source="font_img_join_png" y="47.56" horizontalCenter="21.5" verticalCenter="-258"/>
+		<e:Group id="JoInGroup" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="btn_close" source="close_png" x="714" y="37"/>
+			<e:Image id="btn_ok" source="btn_ok_png" y="557" horizontalCenter="36.5"/>
+			<e:Group id="g_input" y="217" horizontalCenter="36.5">
+				<e:Image source="img_join_box_png" x="0" y="0"/>
+				<e:Image x="3" y="5" name="num1" source="1_btn_png"/>
+				<e:Image x="120" y="5" name="num2" source="2_btn_png"/>
+				<e:Image x="240" y="5" name="num3" source="3_btn_png"/>
+				<e:Image x="355" y="5" name="num4" source="4_btn_png"/>
+				<e:Image x="2" y="115" name="num5" source="5_btn_png"/>
+				<e:Image x="120" y="115" name="num6" source="6_btn_png"/>
+				<e:Image x="240" y="115" name="num7" source="7_btn_png"/>
+				<e:Image x="355" y="115" name="num8" source="8_btn_png"/>
+				<e:Image x="120" y="224.5" name="num9" source="9_btn_png"/>
+				<e:Image x="240" y="224.5" name="num0" source="0_btn_png"/>
+				<e:Image source="font_img_clear_png" name="cle" x="3.5" y="224.5"/>
+				<e:Image source="font_img_delete_png" x="355" y="224.5" name="del"/>
+			</e:Group>
+			<e:Group x="174" y="133">
+				<e:Rect id="rect1" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num1" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group x="262" y="133">
+				<e:Rect id="rect2" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num2" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group x="350" y="133">
+				<e:Rect id="rect3" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num3" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group x="438" y="133">
+				<e:Rect id="rect4" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num4" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group x="526" y="133">
+				<e:Rect id="rect5" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num5" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group x="614" y="133">
+				<e:Rect id="rect6" width="46" height="4" fillColor="0x717552" x="0" verticalCenter="0"/>
+				<e:Image id="num6" source="0_png" x="0" y="0" visible="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

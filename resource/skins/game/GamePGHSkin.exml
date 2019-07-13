@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GamePGHSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="139"
+        width="695">
+	<w:Config id="15948bf6ca2" />
+	<e:Group id="g_PGHG" height="139" right="0">
+		<e:layout>
+			<e:HorizontalLayout gap="0" />
+		</e:layout>
+	</e:Group>
+</e:Skin>

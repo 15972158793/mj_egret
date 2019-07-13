@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TableSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Image id="table_bg" left="0" top="0" right="0" bottom="0" width="100%" height="100%" source="desk_bg_png" />
+	<e:Group id="g_master" horizontalCenter="0" verticalCenter="59" visible="false">
+		<e:Group y="95.53" horizontalCenter="0">
+			<e:Button id="btn_table_exit" y="0" x="0">
+				<e:Skin currentState="up" width="252" height="86" states="up,down">
+					<e:Image source="ready_bg2_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" />
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="ready_dissolve_png" />
+				</e:Skin>
+			</e:Button>
+			<e:Button id="btn_table_hall" y="78.79000000000002" x="81.81">
+				<e:Skin currentState="up" width="252" height="86" states="up,down">
+					<e:Image source="ready_bg2_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="ready_back_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+				</e:Skin>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="48" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="g_other" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="btn_table_back" visible="false">
+			<e:Skin currentState="up" width="252" height="86" states="up,down">
+				<e:Image source="ready_bg2_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" />
+				<e:Image source="ready_back_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_table_share">
+			<e:Skin currentState="up" width="252" height="86" states="up,down">
+				<e:Image scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" source="ready_bg1_png" />
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="ready_share_png" />
+			</e:Skin>
+		</e:Button>
+	</e:Group>
+	<e:Group width="915" height="40" y="224" id="g_gao" horizontalCenter="0" visible="false">
+		<e:Image top="0" anchorOffsetX="0" width="807.97" source="topbar_bg_png" horizontalCenter="0" />
+		<e:Label id="lb_game_gao" text="系统检测到玩家XXXX和XXXX的ip相同，请注意" textAlign="center" fontFamily="黑体" size="28"
+		         textColor="0xff0000" y="6" horizontalCenter="0" />
+	</e:Group>
+	<e:Image horizontalCenter="0.5" y="5.36" source="topbar_bg_png" />
+	<e:Rect id="rect_topBarMask" width="591" height="28" horizontalCenter="0" top="16" fillAlpha="1" alpha="1"
+	         visible="false"/>
+	<e:Group id="g_topBar" top="16" mask="{rect_topBarMask}" x="916">
+		<e:Label id="lb_roomNumber" text="房间号：000000" size="28" fontFamily="黑体" textColor="0x58c5a5"
+		             x="391.99999999999994" y="0" />
+		<e:Label id="lb_times" text="局数：0/0" size="28" fontFamily="黑体" textColor="0x58c5a5" x="0" y="0" />
+		<e:Label id="lb_rule" text="玩法：风耗子场" size="28" fontFamily="黑体" textColor="0x58c5a5" x="165.99999999999994" y="0" />
+		
+		<e:layout>
+			<e:HorizontalLayout gap="54" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_set" right="20" top="20">
+		<e:Skin states="up,down" width="96" height="98">
+			<e:Image source="set_btn_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+		</e:Skin>
+	</e:Button>
+	<ns1:Page_Record skinName="PageRecordSkin" touchChildren="true" visible="false" />
+	<e:Button id="btn_message" right="20" bottom="285">
+		<e:Skin states="up,down" width="96" height="98">
+			<e:Image verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="chat_btn1_png" />
+		</e:Skin>
+	</e:Button>
+	<e:Group id="g_player" touchEnabled="false" touchThrough="true" width="100%" height="100%">
+		<ns1:GameUserPage id="player_top" skinName="GameUserSkin" x="547" y="64" />
+		<ns1:GameUserPage id="player_bottom" skinName="GameUserSkin" x="547" y="595" />
+		<ns1:GameUserPage id="player_right" skinName="GameUserSkin" y="184" x="1074" />
+		<ns1:GameUserPage id="player_left" skinName="GameUserSkin" y="298" x="20" />
+	</e:Group>
+	<ns1:Page_PlayerAni id="c_playerAni" touchChildren="false" touchEnabled="false" visible="false" />
+	<ns1:GameBtnHoverPage id="c_btnHover" />
+	<!--<e:Image id="readySign_bottom" source="icon_readySign_png" bottom="110" horizontalCenter="10" visible="false" />
+	<e:Image id="readySign_left" source="icon_readySign_png" verticalCenter="90" left="0" visible="false" />
+	<e:Image id="readySign_right" source="icon_readySign_png" right="0" verticalCenter="90" visible="false" />
+	<e:Image id="readySign_top" source="icon_readySign_png" horizontalCenter="10" top="180" visible="false" />
+	-->
+	<e:Group id="_Share" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Rect width="1206" height="750" fillAlpha="0.6" />
+		<e:Image source="share_1_png" />
+	</e:Group>
+	<e:Group id="g_left_act" verticalCenter="26.5" left="136" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_right_act" verticalCenter="-89.5" right="132" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_top_act" horizontalCenter="126" top="200" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Group id="g_bottom_act" horizontalCenter="124" top="458" x="10" y="10" width="248" height="129" touchChildren="false"
+	         touchEnabled="false" touchThrough="true"></e:Group>
+</e:Skin>

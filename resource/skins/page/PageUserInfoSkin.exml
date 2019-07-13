@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageUserInfoSkin" width="1260" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" top="0" fillAlpha="0.5" bottom="0" right="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="set_bg_png"/>
+		<e:Image source="img_head_moneyBar_big_png" x="319" y="206.5"/>
+		<e:Image id="btn_head_add" source="btn_head_add_big_png" x="530" y="213"/>
+		<e:Label id="lb_nickname" text="用户昵称昵称" y="145.88" size="42" textColor="0x000000" fontFamily="黑体" width="252" height="42" textAlign="left" left="319"/>
+		<e:Label id="lb_id" text="ID:000000" y="300" textColor="0x000000" fontFamily="黑体" size="42" left="319"/>
+		<e:Label id="lb_ip" text="IP:0" y="370.07" textColor="0x000000" fontFamily="黑体" size="42" left="319"/>
+		<e:Label id="lb_money" text="0" x="371.17999999999995" y="219.32" fontFamily="黑体" anchorOffsetX="0" width="154.96" anchorOffsetY="0" height="43.65" verticalAlign="middle" textAlign="center" textColor="0xffd133"/>
+		<e:Rect id="headMask" width="136" height="136" x="138" y="139" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="1" ellipseWidth="200" ellipseHeight="200"/>
+		<e:Image id="img_head" width="136" height="136" x="138" y="139"/>
+		<e:Image id="btn_close" source="close_png" x="633.66" y="48"/>
+		<e:Image source="font_img_userinfo_png" y="44" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

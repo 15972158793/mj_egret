@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="63,20,35,120" minWidth="200" source="cardBox_bg_png" />
+	<e:Group id="g_list" horizontalCenter="0" verticalCenter="8.5">
+		<e:layout>
+			<e:HorizontalLayout gap="0" />
+		</e:layout>
+	</e:Group>
+	<e:Image id="CloseBt" source="texture4_json.close_png" y="-7" right="-3"  scaleX="0.75" scaleY="0.75"/>
+</e:Skin>
